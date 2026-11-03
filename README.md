@@ -1,5 +1,5 @@
 # Ex. No: 5 Inter-VLAN Routing Using Router-on-a-Stick
-# Date:
+# Date:3.11.2026
 ________________________________________
 # Objective
 To configure Inter-VLAN routing using a single router interface with subinterfaces (Router-on-a-Stick) so that hosts in different VLANs can communicate with each other.
@@ -12,6 +12,8 @@ ________________________________________
 •	Straight-through Ethernet cables<br>
 ________________________________________
 # Network Topology Diagram
+<img width="1918" height="1198" alt="Screenshot 2026-11-03 155506" src="https://github.com/user-attachments/assets/c02f8caf-0855-4c73-bf62-fe00c94a8255" />
+
 # Description:
 •	PC0 and PC1 belong to VLAN 10 (192.168.10.0/24)<br>
 •	PC2 and PC3 belong to VLAN 20 (192.168.20.0/24)<br>
@@ -91,7 +93,35 @@ ________________________________________
 •	PC IP settings<br>
 •	Successful ping between PCs in different VLANs after routing<br>
 •	Successful ping between PCs in the same VLAN<br>
+
+
+<img width="1920" height="1200" alt="Screenshot 2026-11-03 155538" src="https://github.com/user-attachments/assets/021d4f9b-cb1e-4bf5-b87d-f37811fc6249" />
+
+
+
+<img width="1920" height="1200" alt="Screenshot 2026-11-03 155601" src="https://github.com/user-attachments/assets/91e6cb27-1d62-4b87-8e6c-149371981c47" />
+
+
+
+<img width="1920" height="1200" alt="Screenshot 2026-11-03 155636" src="https://github.com/user-attachments/assets/f5942230-ddf9-442a-9f58-d7f73562b7e1" />
+
+<img width="1920" height="1200" alt="Screenshot 2026-11-03 155651" src="https://github.com/user-attachments/assets/481a0e5a-0a4c-4b63-8fe8-3cc39c713443" />
+
+<img width="1920" height="1200" alt="Screenshot 2026-11-03 155651" src="https://github.com/user-attachments/assets/6b29a5f1-34b3-42f3-962a-95d61fa85271" />
+
+<img width="1920" height="1200" alt="Screenshot 2026-11-03 160404" src="https://github.com/user-attachments/assets/b853946e-e406-43ea-9f20-40f8fb2ac9ce" />
+
+<img width="1920" height="1200" alt="Screenshot 2026-11-03 160811" src="https://github.com/user-attachments/assets/55d14953-8b4b-4da6-8f96-3095caf8ccbb" />
+
+<img width="1920" height="1200" alt="Screenshot 2026-11-03 160853" src="https://github.com/user-attachments/assets/e0d7a16d-0d5c-46b7-bb84-40a9a5e74aed" />
+
 ________________________________________
+
+
+
 # Result
+
+
+
 Inter-VLAN routing was successfully configured using the Router-on-a-Stick method. PCs in different VLANs could communicate through the router.
 
